@@ -1,5 +1,5 @@
 # Text Generator - Krisko
-This project tries to perform various Natural Language Processing (NLP) in an unfamiliar language to me  -  Bulgarian. I will try to explore the data and at the end try to generate some Bulgarian sentences by using a machine learning model incorporating BiLSTM (Bidirectional Long and Short-term Memory) layers frin Krisko (one of the most famous Bulgarian singers/rappers)'s lyrics. This project is documented in my [medium blog]().
+This project tries to perform various Natural Language Processing (NLP) in an unfamiliar language to me  -  Bulgarian. I will try to explore the data and at the end try to generate some Bulgarian sentences by using a machine learning model incorporating BiLSTM (Bidirectional Long and Short-term Memory) layers frin Krisko (one of the most famous Bulgarian singers/rappers)'s lyrics. This project is documented in my [medium blog](https://towardsdatascience.com/can-we-perform-nlp-on-unfamiliar-natural-languages-138f6ea4af13).
 All the text data were collected from [Lyrics Translate](https://lyricstranslate.com/en/krisko-lyrics.html).
 
 ## Table of contents
@@ -13,11 +13,12 @@ All the text data were collected from [Lyrics Translate](https://lyricstranslate
 ```
 Keras == 2.3.1
 feather_format == 0.4.0
-nltk == 3.3
+gensim == 3.8.1
+nltk == 3.4.5
 numpy == 1.18.1
 pandas == 0.23.4
 spacy == 2.2.3
-tensorflow == 1.14.0
+tensorflow == 2.1.0
 ```
 
 ## Text Data
@@ -89,5 +90,5 @@ This poject went through
 Next steps would be:
 - Generate lyrics (probably need more data)
 - Try skipgram
-- Improve the quality of data including \<eos> and \<sos>
+- Improve the quality of data including \<eos> and \<sos> instead of predicting a fixed length of sentence
 - Create text generator API

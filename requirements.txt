@@ -7,9 +7,12 @@ Keras == 2.3.1
 # src/modules/buildModel.py: 1
 feather_format == 0.4.0
 
+# src/modules/word2vec.py: 2,3
+gensim == 3.8.1
+
 # src/modules/preProcess.py: 6,7,8
 # src/modules/word2vec.py: 1
-nltk == 3.3
+nltk == 3.4.5
 
 # src/modules/preProcess.py: 2
 numpy == 1.18.1
@@ -21,4 +24,4 @@ pandas == 0.23.4
 spacy == 2.2.3
 
 # src/modules/buildModel.py: 2,9,10,11
-tensorflow == 1.14.0
+tensorflow == 2.1.0
