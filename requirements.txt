@@ -15,7 +15,7 @@ gensim == 3.8.1
 nltk == 3.4.5
 
 # src/modules/preProcess.py: 2
-numpy == 1.18.1
+numpy == 1.22.0
 
 # src/modules/preProcess.py: 1
 pandas == 0.23.4
