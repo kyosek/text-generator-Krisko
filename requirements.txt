@@ -12,7 +12,7 @@ gensim == 3.8.1
 
 # src/modules/preProcess.py: 6,7,8
 # src/modules/word2vec.py: 1
-nltk == 3.4.5
+nltk == 3.6.6
 
 # src/modules/preProcess.py: 2
 numpy == 1.22.0
